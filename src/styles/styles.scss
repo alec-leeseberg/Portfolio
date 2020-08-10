@@ -1,0 +1,35 @@
+// Base
+@import './base/settings';
+@import './base/base';
+
+// Components
+@import './components/animationcontainer';
+@import './components/contact';
+@import './components/hamburgers/hamburgers';
+@import './components/hamburgers/types/collapse';
+@import './components/hamburgermenu';
+@import './components/header';
+@import './components/heroimage';
+@import './components/home';
+@import './components/navbar';
+@import './components/notfoundpage';
+@import './components/portfolio';
+@import './components/viewwork';
+@import './components/project';
+@import './components/themes';
+@import './components/toggle';
+
+
+// Animations
+@import './animations/animista';
+@import './animations/sqone';
+@import './animations/sqtwo';
+@import './animations/sqthree';
+@import './animations/sqfour';
+@import './animations/logo';
+@import './animations/animatedlogo';
+@import './animations/allogoanimation';
+@import './animations/toprectangleanimation';
+@import './animations/bottomrectangleanimation';
+@import './animations/almenulogo';
+

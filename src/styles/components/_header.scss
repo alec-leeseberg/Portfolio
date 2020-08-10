@@ -1,0 +1,112 @@
+@import '../base/_base.scss';
+
+.header {
+  background-color: $dark-grey;
+  color: $light-grey;
+  margin-bottom: $m-size;
+  z-index: 3;
+}
+
+.headertitle {
+  display: inline-block;
+  margin: $s-size;
+  color: $light-grey;
+  text-align: center;
+  font-size: 20px;
+}
+
+//BEM block element modifier naming convention
+
+.header__title {
+  font-size: $l-size;
+  margin: 0;  
+}
+
+.header__subtitle {
+  color: $light-grey;
+  font-size: $m-size;
+  font-weight: 500;
+  margin: 0;
+}
+
+.mobile__top {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: $dark-grey;
+}
+
+.mobiletoplogo {
+  position: absolute;
+  height: $xl-size;
+  width: $xl-size;
+  left: 50%;
+  margin-top: $s-size;
+  transform: translateX(-50%);
+}
+
+.hvr-underline-from-left {
+  float: right;
+  display: block;
+  color: $light-grey;
+//  background-color: $dark-grey;
+  text-align: center;
+  padding: $s-size 0;
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  padding-top: 2rem;
+  text-decoration: none;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+
+.hvr-underline-from-left a {
+  color: $light-grey;
+  background-color: $dark-grey;
+  text-decoration: none;
+
+}
+
+.hvr-underline-from-left:before {
+  content: "";
+  text-decoration: none;
+  color: $light-grey;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  background: $light-grey;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+@media (max-width: $desktop-breakpoint) {
+ .ul {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+ }
+ .hvr-underline-from-left {
+   display: none;
+ }
+}
+
+@media (min-width: $desktop-breakpoint) {
+  .mobile__top {
+    display: none;
+  }
+}
+
