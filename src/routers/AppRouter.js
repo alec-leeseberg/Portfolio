@@ -3,14 +3,11 @@ import { BrowserRouter, Route, Switch, Link, NavLink } from 'react-router-dom';
 import AnimationContainer from '../animations/AnimationContainer';
 import Navbar from '../components/Navbar';
 import RouterSwitch from '../components/RouterSwitch';
-
-
-
+import Home from '../components/Home';
 
 const AppRouter = () => (
   <BrowserRouter>
     <div>
-      <AnimationContainer />
       <div className="mainpage">
         <Navbar/>
         <RouterSwitch/>
@@ -23,6 +20,8 @@ export default AppRouter;
 
 
 /* Fallback
+      <AnimationContainer />
+
 
 const AppRouter = () => (
   <BrowserRouter>

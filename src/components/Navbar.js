@@ -3,6 +3,9 @@ import Toggle from './Toggle';
 import HamburgerElement from './Hamburger';
 import { NavLink } from 'react-router-dom';
 
+//Navigation Bar
+//Contains Toggle, Logo, Menu Links/Hamburger
+
 const Navbar = () => (
     <div className="navbar">
         <Toggle className="toggle-container"></Toggle>

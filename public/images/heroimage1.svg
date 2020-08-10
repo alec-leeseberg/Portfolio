@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1366 768" style="enable-background:new 0 0 1366 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#595959;}
+	.st1{fill:none;stroke:#AFAFAF;stroke-miterlimit:10;}
+	.st2{fill:#AFAFAF;}
+	.st3{display:none;}
+	.st4{display:inline;}
+	.st5{fill:#3A3A3A;}
+	.st6{fill:#FFFFFF;}
+	.st7{font-family:'Montserrat-Regular';}
+	.st8{font-size:55px;}
+</style>
+<g id="Background">
+	<polyline class="st0" points="0,768 712,0 1366,0 1366,767 	"/>
+	<path class="st1" d="M124.95,326.5h987.1c4.12,0,7.45,3.34,7.45,7.45v97.1c0,4.12-3.34,7.45-7.45,7.45h-987.1
+		c-4.12,0-7.45-3.34-7.45-7.45v-97.1C117.5,329.84,120.84,326.5,124.95,326.5z"/>
+</g>
+<g id="Bottom">
+	<g>
+		<polygon class="st2" points="1124.5,535.5 1229.24,716.51 1177.5,716.5 1072.76,535.49 		"/>
+		<polygon class="st2" points="1202.52,535.1 1307.25,716.1 1255.52,716.1 1150.78,535.09 		"/>
+		<polygon class="st2" points="1046.52,535.1 1151.25,716.1 1099.52,716.1 994.78,535.09 		"/>
+	</g>
+</g>
+<g id="Dots" class="st3">
+	<g class="st4">
+		<circle class="st2" cx="1184.5" cy="674.5" r="7"/>
+		<circle class="st2" cx="1205.5" cy="674.5" r="7"/>
+		<circle class="st2" cx="1226.5" cy="674.5" r="7"/>
+		<circle class="st2" cx="1247.5" cy="674.5" r="7"/>
+		<circle class="st2" cx="1268.5" cy="674.5" r="7"/>
+	</g>
+	<g class="st4">
+		<circle class="st2" cx="1185.01" cy="645.71" r="7"/>
+		<circle class="st2" cx="1206" cy="645.36" r="7"/>
+		<circle class="st2" cx="1227" cy="645" r="7"/>
+		<circle class="st2" cx="1248" cy="644.64" r="7"/>
+		<circle class="st2" cx="1268.99" cy="644.29" r="7"/>
+	</g>
+	<g class="st4">
+		<circle class="st2" cx="1185" cy="704" r="7"/>
+		<circle class="st2" cx="1206" cy="704" r="7"/>
+		<circle class="st2" cx="1227" cy="704" r="7"/>
+		<circle class="st2" cx="1248" cy="704" r="7"/>
+		<circle class="st2" cx="1269" cy="704" r="7"/>
+	</g>
+</g>
+<g id="Overlay">
+	<polygon class="st5" points="712,0 0,768 0,0 	"/>
+</g>
+<g id="Title">
+	<text transform="matrix(1 0 0 1 275.7866 400.1699)" class="st6 st7 st8">Designer, Developer, Inventor</text>
+</g>
+<g id="Box_Outline">
+	<g>
+		<line class="st1" x1="225.5" y1="42.5" x2="39.5" y2="261.5"/>
+		<line class="st1" x1="235.48" y1="42.9" x2="48.5" y2="261.5"/>
+		<line class="st1" x1="235.34" y1="70.3" x2="72.5" y2="261.5"/>
+		<line class="st1" x1="235.5" y1="82.5" x2="82.32" y2="261.7"/>
+		<line class="st1" x1="235.5" y1="113.5" x2="109.5" y2="261.5"/>
+		<line class="st1" x1="235.5" y1="125.5" x2="119.5" y2="261.5"/>
+		<line class="st1" x1="235.5" y1="158.5" x2="147.5" y2="261.5"/>
+		<line class="st1" x1="235.5" y1="170.5" x2="157.5" y2="261.5"/>
+		<line class="st1" x1="235.21" y1="206.34" x2="188.5" y2="261.5"/>
+		<line class="st1" x1="235.21" y1="218.34" x2="198.5" y2="261.5"/>
+		<line class="st1" x1="188.5" y1="42.5" x2="39.5" y2="217.5"/>
+		<line class="st1" x1="198.5" y1="42.5" x2="39.5" y2="228.5"/>
+		<line class="st1" x1="150.5" y1="42.5" x2="39.5" y2="173.5"/>
+		<line class="st1" x1="160.5" y1="42.5" x2="39.5" y2="184.5"/>
+		<line class="st1" x1="112.5" y1="42.5" x2="39.5" y2="128.5"/>
+		<line class="st1" x1="122.5" y1="42.5" x2="39.5" y2="140.5"/>
+		<line class="st1" x1="73.74" y1="42.82" x2="39.5" y2="83.5"/>
+		<line class="st1" x1="83.74" y1="42.82" x2="39.5" y2="95.5"/>
+		<line class="st1" x1="73.5" y1="42.5" x2="83.5" y2="42.5"/>
+		<line class="st1" x1="39.5" y1="83.5" x2="39.5" y2="95.5"/>
+		<line class="st1" x1="112.5" y1="42.5" x2="122.5" y2="42.5"/>
+		<line class="st1" x1="39.5" y1="128.5" x2="39.5" y2="140.5"/>
+		<line class="st1" x1="150.5" y1="42.5" x2="160.5" y2="42.5"/>
+		<line class="st1" x1="39.5" y1="173.5" x2="39.5" y2="184.5"/>
+		<line class="st1" x1="188.5" y1="42.5" x2="198.5" y2="42.5"/>
+		<line class="st1" x1="225.5" y1="42.5" x2="235.5" y2="42.5"/>
+		<line class="st1" x1="235.5" y1="70.5" x2="235.5" y2="82.5"/>
+		<line class="st1" x1="235.5" y1="113.5" x2="235.5" y2="125.5"/>
+		<line class="st1" x1="235.5" y1="158.5" x2="235.5" y2="170.5"/>
+		<line class="st1" x1="235.5" y1="206.5" x2="235.5" y2="218.5"/>
+		<line class="st1" x1="188.5" y1="261.5" x2="198.5" y2="261.5"/>
+		<line class="st1" x1="147.5" y1="261.5" x2="157.5" y2="261.5"/>
+		<line class="st1" x1="109.5" y1="261.5" x2="119.5" y2="261.5"/>
+		<line class="st1" x1="72.5" y1="261.5" x2="82.5" y2="261.5"/>
+		<line class="st1" x1="39.5" y1="261.5" x2="48.5" y2="261.5"/>
+		<line class="st1" x1="39.5" y1="217.5" x2="39.5" y2="228.5"/>
+	</g>
+</g>
+</svg>

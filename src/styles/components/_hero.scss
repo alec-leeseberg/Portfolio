@@ -1,0 +1,47 @@
+.hero {
+    position: relative;
+    width: 100%;
+    transform: translateY(-15px);
+}
+
+.heroimage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    opacity: 100%;
+}
+
+.viewwork {
+    position: relative;
+    width: 30vw;
+    height: 10vh;
+    font-size: $l-size;
+    text-align: center;
+    margin-left: 35%;
+    transform: translateY(-30vh);
+    color: white;
+    background-color: $dark-grey;
+    border: transparent;
+    border-radius: 0.5em;
+    box-shadow: 
+    -7px -7px 7px 0 rgba(100, 100, 100, .85), 
+    6px 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1080px) {
+.viewwork{
+    transform: translateY(-25vh);
+}
+}
+
+@media (max-width: 1200px) {
+    .viewwork{
+        transform: translateY(-25vh);
+    }
+}
+
+@media (max-width: $desktop-breakpoint) {
+.viewwork{
+    display: none
+}
+}

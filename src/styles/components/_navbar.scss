@@ -5,7 +5,7 @@
     margin: 0;
     padding-bottom: 15px;
     overflow: hidden;
-    background-color: $dark-grey;
+    background-color: $darker-grey;
 }
 
 //AL Navbar Logo
@@ -15,14 +15,14 @@
     left: 50%;
     margin-top: $s-size;
     transform: translateX(-50%);
-    background-color: $dark-grey;
+    background-color: $darker-grey;
 }
 
 // Menu Options - Underline Animation
 .menu-item-underline {
     float: right;
     display: block;
-    color: $light-grey;
+    color: white;
     text-align: center;
     padding: $s-size 0;
     margin-left: 3.5%;
@@ -38,7 +38,7 @@
 
 .menu-item-underline a {
     color: $light-grey;
-    background-color: $dark-grey;
+    background-color: $darker-grey;
     text-decoration: none;
 }
 
