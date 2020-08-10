@@ -2,7 +2,9 @@ import React from 'react';
 
 const AnimationContainer = () => (
     <div className="animationcontainer">
-        <img src="images/animatedallogo.svg" class="allogoanimation"></img>
+      <div className="sqone"></div>
+      <div className="sqtwo"></div>
+      <div className="sqthree"></div>
     </div>
 );
 
