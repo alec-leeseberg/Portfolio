@@ -8,15 +8,15 @@ import { NavLink } from 'react-router-dom';
 class Navbar extends React.Component {
     render() {
 
-        const { theme, handleToggleTheme } = this.props;
+        const { theme, hamburgeractive, handleToggleTheme, handleToggleHamburger } = this.props;
         return (
-            <div className="navbar">
+            <div className={theme == "Dark" ? "navbar" : "navbar-light"}>
                 <Toggle className="toggle-container" theme={theme} handleToggleTheme={handleToggleTheme}></Toggle>
-                <img src="/images/allogowhite.svg" className="navbarlogo"></img>
-                <li className="menu-item-underline"><NavLink to="/contact" activeClassName="is-active" exact={true}>Contact</NavLink></li>
-                <li className="menu-item-underline"><NavLink to="/portfolio" activeClassName="is-active" exact={true}>Portfolio</NavLink></li>
-                <li className="menu-item-underline"><NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink></li>
-                <HamburgerElement></HamburgerElement>
+                <img src={theme == "Dark" ? "/images/allogowhite.svg" : "/images/allogosolidblack.svg"} className={theme == "Dark" ? "navbarlogo" : "navbarlogowhite"}></img>
+                <li className={theme == "Dark"? "menu-item-underline" : "menu-item-underline-light"}><NavLink to="/contact" activeClassName="is-active" exact={true}>Contact</NavLink></li>
+                <li className={theme == "Dark"? "menu-item-underline" : "menu-item-underline-light"}><NavLink to="/portfolio" activeClassName="is-active" exact={true}>Portfolio</NavLink></li>
+                <li className={theme == "Dark"? "menu-item-underline" : "menu-item-underline-light"}><NavLink to="/" activeClassName="is-active" exact={true}>Home</NavLink></li>
+                <HamburgerElement hamburgeractive={hamburgeractive} handleToggleHamburger={handleToggleHamburger}></HamburgerElement>
             </div>
         );
     }

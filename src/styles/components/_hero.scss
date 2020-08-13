@@ -28,8 +28,28 @@
     6px 6px 6px 0 rgba(0, 0, 0, 0.1);
 }
 
+.viewworklight {
+    position: relative;
+    width: 30vw;
+    height: 10vh;
+    font-size: $l-size;
+    text-align: center;
+    margin-left: 35%;
+    transform: translateY(-30vh);
+    color: $darkest-grey;
+    background-color: $light-grey;
+    border: transparent;
+    border-radius: 0.5em;
+    box-shadow: 
+    -7px -7px 7px 0 rgba(255, 255, 255, .85), 
+    6px 6px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
 @media (max-width: 1080px) {
 .viewwork{
+    transform: translateY(-25vh);
+}
+.viewworklight{
     transform: translateY(-25vh);
 }
 }
@@ -38,10 +58,16 @@
     .viewwork{
         transform: translateY(-25vh);
     }
+    .viewworklight{
+        transform: translateY(-25vh);
+    }
 }
 
 @media (max-width: $desktop-breakpoint) {
 .viewwork{
+    display: none
+}
+.viewworklight{
     display: none
 }
 }

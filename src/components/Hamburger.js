@@ -1,14 +1,24 @@
 import React from 'react';
+
+
+class HamburgerElement extends React.Component {
+  render() {
+    const { hamburgeractive, handleToggleHamburger } = this.props;
+    return (
+      <div className="hamburger__menu">
+        <button className={hamburgeractive ? "hamburger hamburger--collapse" : "hamburger hamburger--collapse is-active"} type="button">
+          <span className="hamburger-box" onClick={handleToggleHamburger}>
+            <span className="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    );
+  }
+}
+
+export default HamburgerElement;
+
 /*
-// Look for .hamburger
-  var hamburger = document.querySelector(".hamburger");
-  // On click
-  hamburger.addEventListener("click", function() {
-    // Toggle class "is-active"
-    hamburger.classList.toggle("is-active");
-    // Do something else, like open/close menu
-  });
-*/
 const HamburgerElement = () => {
   return (
     <div className="hamburger__menu">
@@ -24,3 +34,4 @@ const HamburgerElement = () => {
 };
 
 export default HamburgerElement;
+*/

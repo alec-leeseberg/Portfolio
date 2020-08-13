@@ -17,7 +17,7 @@ label {
     text-indent: -9999px;
     width: 52px;
     height: 27px;
-    background: white;
+    background: $darkest-grey;
     float: left;
     margin-left: 5vw;
     border-radius: 100px;
@@ -37,7 +37,7 @@ label:after {
 }
 
 input:checked + label {
-    background: $darkest-grey;
+    background: white;
 }
 
 input:checked + label:after {

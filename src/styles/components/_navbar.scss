@@ -10,6 +10,11 @@
 
 .navbar-light {
     background-color: white;
+    transform: translateY(-15px);
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 15px;
+    overflow: hidden;
 }
 
 //AL Navbar Logo
@@ -22,11 +27,21 @@
     background-color: $darker-grey;
 }
 
+.navbarlogowhite {
+    position: absolute;
+    width: $xl-size;
+    left: 50%;
+    margin-top: $s-size;
+    transform: translateX(-50%);
+    background-color: white;
+}
+
 // Menu Options - Underline Animation
 .menu-item-underline {
     float: right;
     display: block;
-    color: white;
+    color: $darker-grey;
+    background-color: $darker-grey;
     text-align: center;
     padding: $s-size 0;
     margin-left: 3.5%;
@@ -55,7 +70,7 @@
     left: 0;
     right: 100%;
     bottom: 0;
-    background: $light-grey;
+    background: $darker-grey;
     height: 2px;
     -webkit-transition-property: right;
     transition-property: right;
@@ -70,6 +85,30 @@
     right: 0;
 }
 
+.menu-item-underline-light {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: $s-size 0;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    padding-top: 2rem;
+    text-decoration: none;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;   
+}
+
+.menu-item-underline-light a {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+
+
 // NavBar Responsiveness
 @media (max-width: $desktop-breakpoint) {
     
@@ -83,13 +122,32 @@
 //        padding-bottom: 5px;
     }
 
+    .navbar-light {
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        height: 60px;
+        transform: translateY(1px);
+    }
+
     // Hide Menu Items
     .menu-item-underline {
         display: none;
     }
 
+    .menu-item-underline-light {
+        display: none;
+    }
+
     // Center Navbar logo at bottom
     .navbarlogo {
+        position: relative;
+        transform: translateX(-50%); 
+        //translateY(-5px);
+        margin-top: 0px;
+    }
+
+    .navbarlogowhite {
         position: relative;
         transform: translateX(-50%); 
         //translateY(-5px);
