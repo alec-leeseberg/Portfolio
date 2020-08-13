@@ -1,32 +1,12 @@
 import React from 'react';
 
+
 class Toggle extends React.Component {
-    constructor(props) {
-        super(props);
-        this.handleToggleTheme = this.handleToggleTheme.bind(this);
-        this.state = {
-          theme: "Dark"
-        };
-      }
-
-    handleToggleTheme() {
-        this.setState((prevState) => {
-            console.log(prevState.theme);
-            if(prevState.theme == "Dark")
-            return {
-                theme: "Light"
-              };
-            else if (prevState.theme == "Light")
-            return {
-                theme: "Dark"
-            };
-        });
-    }
-
     render() {
-        return (
+       const { theme, handleToggleTheme } = this.props;
+       return (
             <div className="toggle-container">
-                <input type="checkbox" id="switch" name="theme" onClick={this.handleToggleTheme}/> <label htmlFor="switch">Toggle</label>
+                <input type="checkbox" id="switch" name="theme" onClick={handleToggleTheme}/> <label htmlFor="switch">Toggle</label>
             </div>
         );
     }
